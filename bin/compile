@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
+# to resolve following issue - parent directory is world writable
+`sudo chmod -R go-w /tmp`
+
 # sync output
 $stdout.sync = true
 
